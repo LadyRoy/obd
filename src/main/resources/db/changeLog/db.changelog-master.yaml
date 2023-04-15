@@ -1,0 +1,6 @@
+
+databaseChangeLog:
+  - include:
+      file: db/changeLog/001_create_tables.sql
+  - include:
+      file: db/changeLog/002_modify_book_storage_reader.sql
